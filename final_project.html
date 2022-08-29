@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="mystyles.css">
+    <head>
+        <title>Final Project</title>
+    </head>
+    <body>
+        <header>
+            <h1>Radar sensor</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="project.html" class="dropbtn">Project</a>
+                    <div class="content">
+                        <a href="./project.html#27,23">Week 1</a>
+                        <a href="./project.html#38,20">Week 2</a>
+                        <a href="./project.html#50,20">Week 3</a>
+                        <a href="./project.html#83,20">Week 4</a>
+                        <a href="./project.html#101,20">Week 5</a>
+                        <a href="./project.html#128,20">Week 6</a>
+                        <a href="./project.html#147,20">Week 7</a>
+                        <a href="./project.html#161,20">Week 8</a>
+                        <a href="./project.html#174,20">Week 9-10</a>
+                        <a href="./project.html#196,20">Week 11</a>
+                        <a href="./project.html#211,20">Week 12</a>
+                        <a href="./project.html#222,20">Week 13</a>
+                        <a href="./project.html#235,20">Week 14</a>
+                    </div>
+                </li>
+                <li><a href="assignment.html">Assignment</a></li>
+                <li><a href="final_project.html">Final Project</a></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="card">
+                <h3>Project Sketch</h3>
+                <p><img src="images/sketch.jpg" style="width: 1024px; height:768px; " /></p>
+                <p>
+                    The way this product works is by waving a hand at the PIR sensor. It will activate the NeoPixels
+                    which display the time.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <h3>Project Design</h3>
+                <p>
+                    The idea of the radar sensor is by a user named <i>'how to mechatronics'</i> on youtube. The parts for his
+                    project consists of <i> Arduino uno,ultrasonic sensor ,servo motor </i>. In his project,he connected to project to the computer
+                    to show the radar signal In contrast, i will be using a buzzer and light for indication. I also followed
+                    his code and made a few changes by adding a led and buzzer.
+                </p>
+                <p>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <h3>Production</h3>
+                <p>This is a step-by-step "<b>How-to"</b>:</p>
+                <p><iframe src="https://ichat157.autodesk360.com/shares/public/SH919a0QTf3c32634dcfab0fe13d095fb817?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe></p>
+                <p>
+                    <b>CAD:</b>Use CAD to design and visualize the body and 3D printed items. For the bodywork, design a rectangular box without the front panel
+                    with box joints and the dimensions from the preliminary sketch. As for the backplate, first create slots with the thickness of the arcylic
+                    on the sidewall. Next, midplane the sidewall. Finally, create a rectangle face on the midplane and combine it with the bodywork. The 7-Segment
+                    is created by using the canvas tool. Trace the 7-segment display. Using the rectangular pattern tool create 3 more display.
+                </p>
+                <p>
+                    There is one 3D printed item in this project. it is the holder for the ultrasonic sensor
+                </p>
+                <p><img src="images/clip.jpg" style="width: 1024px; height:768px; " />
+                <p>
+                    <b>3D Printing:</b>After designing the intended items for printing, we then proceed to the printing stage.
+                    First we have to slice it in the the CURA software, we also must ensure that printing settings are correct.
+                    The settings are <i>
+                        Material: PLA, Nozzle:0.4mm, Layer Height:0.2mm, Wall Thickness:0.8mm, Wall Count:4, Infil:15%
+                        Bed Adhesion:Brim
+                    </i>. Ensure that the first 4 layers is printed properly before leaving.
+                </p>
+                <p><img src="images/cut.jpg" style="width: 1024px; height:768px; " /></p>
+                <p>
+                    <b>Laser Cutting:</b>Pick out the material and measure its thickness. I went for a 5mm wood. Next import your sketches in autoCAD and arrange it to
+                    ensure that no material is wasted. Save it as a DXF. file. Next import the file into CorelDraw. Ensure that there is enough space on the mateial for the cut. If
+                    not measure the limited space, use the ruler in CorelDraw as the guideline and fit in the pieces. Change the dimension to 'hairline'.
+                    After preparing the sketches, prepare the printer by ensuring the setting for the cut is correct. Turn on AutoFocus, change <i>Power: 65%, Speed: 20% and Frequency: 20%</i>
+                    , don't forget to set in the thickness of the material. Next prepare the printer for the cut.
+                </p>
+                <p>
+                    Printer Paperation:<br>1. Go to config and press rest to (0,0).<br>2. Jog the nozzle to space available.<br>3.Open lid and begin printing to check there is enough space.<br>4. Close lid to print, make sure correct
+                    file is use.
+                </p>
+                <p>After print is done make sure it cut through if not repeat the cutting procedure.</p>
+                <p><b>Microcontroller:</b>I use the Arduino UNO for testing and debugging and for the final project </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <h3>Bill of Material</h3>
+                <table id="software">
+                    <tr>
+                        <th>Qty</th>
+                        <th>Item description</th>
+                        <th>Costs</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Arduino uno</td>
+                        <td>$8.05</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>ultrasonic sensor</td>
+                        <td>$9.87</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>servor motor</td>
+                        <td>$4.60</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>buzzer</td>
+                        <td>$9.95</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>5mm led light</td>
+                        <td>$4.99</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <h3>Code</h3>
+                <p>
+                    #include <Servo.h>
+                        #include <LiquidCrystal.h>
+
+                            Servo myservo;
+                            LiquidCrystal lcd(7, 6, 5, 4, 3, 2); // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
+
+                            int pos = 0; // la position initiale du servo moteur
+                            const int trigPin = 9;
+                            const int echoPin = 10;
+                            const int motor = 11;
+                            const int buzzer = 12;
+                            const int ledPin1 = 14;
+                            const int ledPin2 = 15;
+                            float distanceCm, DistanceSec,duration;
+
+                            void setup() {
+                            myservo.attach(motor); // attache le Servo moteur a la pin numéro 11
+                            lcd.begin(16,2); // Initialiser l'interface de Lcd avec leurs Dimensions
+                            pinMode(trigPin, OUTPUT);
+                            pinMode(echoPin, INPUT);
+                            pinMode(buzzer, OUTPUT);
+                            pinMode(ledPin1, OUTPUT);
+                            pinMode(ledPin2, OUTPUT);
+                            DistanceSec=20;
+
+                            }
+
+                            void loop() {
+                            for (pos = 0; pos <= 180; pos += 1) { // aller de 0 a 180 degée
+                            // in steps of 1 degree
+                            myservo.write(pos); // Programmer le Servo pour aller a la position (pos)
+                            digitalWrite(trigPin, LOW);
+                            delayMicroseconds(2);
+                            digitalWrite(trigPin, HIGH); //envoyer une impulsion de 10 micro seconds
+                            delayMicroseconds(10);
+                            digitalWrite(trigPin, LOW);
+
+                            duration = pulseIn(echoPin, HIGH);
+                            distanceCm= duration*0.034/2;
+                            if (distanceCm <= DistanceSec)
+                            {
+
+                            if(distanceCm <= DistanceSec/2)
+                            {
+
+                            tone(buzzer, 10); // Send 1KHz sound signal...
+                            digitalWrite(ledPin1, LOW);
+                            digitalWrite(ledPin2, HIGH);
+                            delay(700);
+                            noTone(buzzer); // Stop sound...
+                            lcd.setCursor(0,0); // positionner le cursor a 0,0
+                            lcd.print("Distance: "); // Printe "Distance" sur LCD
+                            lcd.print(distanceCm); // Printe la valeur Obtenue sur LCD
+                            lcd.print(" cm "); // Printe l'unité sur LCD
+                            delay(10);
+                            lcd.setCursor(0,1);
+                            lcd.print("Angle : ");
+                            lcd.print(pos);
+                            lcd.print(" deg ");
+                            delay(2000);
+                            }
+                            else
+                            {
+                            digitalWrite(buzzer, HIGH);
+                            digitalWrite(ledPin2, LOW);
+                            digitalWrite(ledPin1, HIGH);
+                            delay(100);
+                            digitalWrite(buzzer, LOW);
+                            lcd.setCursor(0,0); // positionner le cursor a 0,0
+                            lcd.print("Distance: "); // Printe "Distance" sur LCD
+                            lcd.print(distanceCm); // Printe la valeur Obtenue sur LCD
+                            lcd.print(" cm "); // Printe l'unité sur LCD
+                            delay(10);
+                            lcd.setCursor(0,1);
+                            lcd.print("Angle : ");
+                            lcd.print(pos);
+                            lcd.print(" deg ");
+                            delay(2000);
+                            }
+                            }
+                            else{
+                            digitalWrite(buzzer, LOW);
+                            digitalWrite(ledPin1, LOW);
+                            digitalWrite(ledPin2, LOW);
+                            }
+
+                            lcd.setCursor(0,0); // positionner le cursor a 0,0
+                            lcd.print("Distance: "); // Printe "Distance" sur LCD
+                            lcd.print(distanceCm); // Printe la valeur Obtenue sur LCD
+                            lcd.print(" cm "); // Printe l'unité sur LCD
+                            delay(10);
+                            lcd.setCursor(0,1);
+                            lcd.print("Angle : ");
+                            lcd.print(pos);
+                            lcd.print(" deg ");
+                            delay(80); //attendre 100ms pour que le servo cherche sa position
+
+                            }
+                            for (pos = 180; pos >= 0; pos -= 1) { //
+                            myservo.write(pos); //
+                            digitalWrite(trigPin, LOW);
+                            delayMicroseconds(2);
+                            digitalWrite(trigPin, HIGH);
+                            delayMicroseconds(10);
+                            digitalWrite(trigPin, LOW);
+
+                            duration = pulseIn(echoPin, HIGH);
+                            distanceCm= duration*0.034/2;
+                            if (distanceCm <= DistanceSec){
+                            if(distanceCm <= DistanceSec/2)
+                            {
+                            tone(buzzer, 10); // Send 1KHz sound signal...
+                            digitalWrite(ledPin1, LOW);
+                            digitalWrite(ledPin2, HIGH);
+                            delay(700);
+                            noTone(buzzer); // Stop sound...
+                            lcd.setCursor(0,0); // positionner le cursor a 0,0
+                            lcd.print("Distance: "); // Printe "Distance" sur LCD
+                            lcd.print(distanceCm); // Printe la valeur Obtenue sur LCD
+                            lcd.print(" cm "); // Printe l'unité sur LCD
+                            delay(10);
+                            lcd.setCursor(0,1);
+                            lcd.print("Angle : ");
+                            lcd.print(pos);
+                            lcd.print(" deg ");
+                            delay(2000);
+                            }
+                            else
+                            {
+                            digitalWrite(buzzer, HIGH);
+                            digitalWrite(ledPin2, LOW);
+                            digitalWrite(ledPin1, HIGH);
+                            delay(100);
+                            digitalWrite(buzzer, LOW);
+                            lcd.setCursor(0,0); // positionner le cursor a 0,0
+                            lcd.print("Distance: "); // Printe "Distance" sur LCD
+                            lcd.print(distanceCm); // Printe la valeur Obtenue sur LCD
+                            lcd.print(" cm "); // Printe l'unité sur LCD
+                            delay(10);
+                            lcd.setCursor(0,1);
+                            lcd.print("Angle : ");
+                            lcd.print(pos);
+                            lcd.print(" deg ");
+                            delay(2000);
+                            }
+                            }
+                            else{
+                            digitalWrite(buzzer, LOW);
+                            digitalWrite(ledPin1, LOW);
+                            digitalWrite(ledPin2, LOW);
+                            }
+
+                            lcd.setCursor(0,0); //
+                            lcd.print("Distance: "); //
+                            lcd.print(distanceCm); //
+                            lcd.print(" cm ");
+                            delay(10);
+                            lcd.setCursor(0,1);
+                            lcd.print("Angle : ");
+                            lcd.print(pos);
+                            lcd.print(" deg ");
+                            delay(80);
+                            }
+                            }
+                </p>
+            </div>
+        </div>
+
+        </div>
+        <div class="row">
+        <div class="card">
+        <h3>final product</h3>
+        <p><img src="images/assemble.jpg" style="width: 1024px; height:768px; " /></p>
+        <p>this is the final radar sensor system </p>
+        
+        </div>
+        <div class="row">
+            <div class="card">
+                <h3>Summary</h3>
+                <p>
+                    The project was a success, even though the coding took a long time. There were no defect for laser cuts and the printed model.
+                    There is a minor problem with programming the buzzer to have different sound, there seem to be a delay when trying to activate it. I should also try to improve my soldering
+                    as it cause many wiring problem.
+                    In terms of upgradability, i could add an lcd screen.
+                </p>
+            </div>
+
+            <div class="row">
+            <div class="card">
+            <h3>User Manual</h3>
+            <p>1. Insert plug into the slot</p>
+            <p>2. ultrasonic sensor activates and moves </p>
+            <p>3. led and buzzer will be activated when object is present</p>
+            </div>
+            </div>
+    </body>
+</html>
